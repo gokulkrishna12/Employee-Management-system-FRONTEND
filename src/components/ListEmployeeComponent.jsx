@@ -44,10 +44,11 @@ function ListEmployeeComponent() {
     }
 
     return (
-        <div className="container">
+        <div className="container glass-container">
+            <div className="glass-card">
 
-            <h2 className="text-center mt-3">
-                Employee List
+            <h2 className="page-tittle">
+                List of Employees
             </h2>
 
             <button
@@ -109,7 +110,7 @@ function ListEmployeeComponent() {
                 </tbody>
 
             </table>
-
+           </div>
         </div>
     );
 }
