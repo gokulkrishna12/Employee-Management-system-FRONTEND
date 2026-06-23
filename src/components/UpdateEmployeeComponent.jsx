@@ -107,9 +107,10 @@ function UpdateEmployeeComponent() {
                             </div>
 
                             <div className="text-center">
-                            <button className="btn btn-warning px-4">
-                             Update
-                            </button>
+                            <button type="button" className="btn btn-warning px-4" onClick={saveOrUpdateEmployee}>
+                            Update
+                           </button>
+                           
                             </div>
                         </form>
 
