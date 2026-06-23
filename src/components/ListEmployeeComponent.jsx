@@ -57,7 +57,8 @@ function ListEmployeeComponent() {
             >
                 Add Employee
             </button>
-
+             
+            <div className="table-responsive">
             <table className="table table-bordered table-striped">
 
                 <thead>
@@ -110,6 +111,7 @@ function ListEmployeeComponent() {
                 </tbody>
 
             </table>
+            </div>
            </div>
         </div>
     );

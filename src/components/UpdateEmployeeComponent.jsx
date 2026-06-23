@@ -51,9 +51,9 @@ function UpdateEmployeeComponent() {
             <br />
 
             <div className="row">
-                <div className="card col-md-6 offset-md-3">
+                <div className="glass-card col-md-8 offset-md-2">
 
-                    <h2 className="text-center mt-3">
+                    <h2 className="page-title">
                         Update Employee
                     </h2>
 
@@ -106,13 +106,11 @@ function UpdateEmployeeComponent() {
                                 />
                             </div>
 
-                            <button
-                                className="btn btn-success"
-                                onClick={saveOrUpdateEmployee}
-                            >
-                                Update
+                            <div className="text-center">
+                            <button className="btn btn-warning px-4">
+                             Update
                             </button>
-
+                            </div>
                         </form>
 
                     </div>

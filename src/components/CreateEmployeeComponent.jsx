@@ -34,9 +34,9 @@ function CreateEmployeeComponent() {
             <br />
 
             <div className="row">
-                <div className="card col-md-6 offset-md-3">
+                <div className="glass-card col-md-8 offset-md-2">
 
-                    <h2 className="text-center mt-3">
+                    <h2 className="page-title">
                         Add Employee
                     </h2>
 
@@ -71,7 +71,7 @@ function CreateEmployeeComponent() {
                                     value={lastname}
                                     className="form-control"
                                     onChange={(e) =>
-                                        setLastname(e.target.value)
+                                    setLastname(e.target.value)
                                     }
                                 />
                             </div>
@@ -92,13 +92,11 @@ function CreateEmployeeComponent() {
                                 />
                             </div>
 
-                            <button
-                                className="btn btn-success"
-                                onClick={saveEmployee}
-                            >
-                                Submit
-                            </button>
-
+                          <div className="text-center">
+                          <button className="btn btn-success px-4">
+                           Submit
+                          </button>
+                          </div>
                         </form>
 
                     </div>
