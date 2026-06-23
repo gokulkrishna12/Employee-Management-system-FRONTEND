@@ -92,10 +92,11 @@ function CreateEmployeeComponent() {
                                 />
                             </div>
 
-                          <div className="text-center">
-                          <button className="btn btn-success px-4">
-                           Submit
-                          </button>
+                           <div className="text-center">
+                            <button type="button" className="btn btn-success px-4" onClick={saveEmployee}>
+                            Submit
+                           </button>
+                          
                           </div>
                         </form>
 
